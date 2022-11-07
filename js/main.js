@@ -64,16 +64,16 @@ async function getCityWeather(cityName){
 
 
 {
-    let formInput = document.querySelector("#cityName");
+    // let formInput = document.querySelector("#cityName");
 
-    formIpout.addEventListener('input', async(e)) => {
-        console.log(e.target.value)
-        let res = await fetch (`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${myAPIKey}&units=imperial`);
-        let data = await res.json()
+    // formIpout.addEventListener('input', async(e)) => {
+    //     console.log(e.target.value)
+    //     let res = await fetch (`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${myAPIKey}&units=imperial`);
+    //     let data = await res.json()
 
-        let cities = document.createElement('ul');
-        for 
-    }
+    //     let cities = document.createElement('ul');
+    //     for 
+    // }
 }
     // const displayData=(weather)=>{
     //     Description.innerText=`${weather.description}`
