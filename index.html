@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .box {
+    display: flex;
+            justify-content: center;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <title>Weather API </title>
+    <!-- <script src="./js/gettingToKnowDocument.js" defer></script>  --><!-- add defer to script tag or put script element at bottom of body-->
+    <script src="./js/main.js" type="module" defer>
+    </script>
+</head>
+  <body>
+    <!-- <div class="container-fluid">
+      <section class="main">
+ 
+      </section>
+  </div>
+  <div class="container">
+  <section class="box">
+    <div class="row row-cols-1"></div>
+      <form action="" id="cityForm"></form>
+        <div class = "form-group"></div>
+          <div class="row row-cols-1"></div> -->
+         <!-- <div class = "col align-self-end"></div> -->
+        <!-- <input type="text" placeholder="Enter City Name" id="cityName" class = "form-control">  -->
+    <!-- <div class="form-group">
+      <div class="box">
+        <div class="row row-cols-1"> -->
+      <!-- <input type="text" name="cityName" id="cityName" class="form-control" placeholder="Enter City Name">
+        <input type="submit" value="Search" > -->
+    <!-- <button style="background-color:blue;"placeholder="Search" id="add"></button> -->
+  <!-- </section> --> 
+
+  <section class="display">
+    <div class="box">
+      <div class="row row-cols-1">
+        <h4 style="background-color:gray;color:white"id="weather.description">Description</h4>
+    </div>
+  </section>
+
+  <section class="display">
+    <div class="box">
+      <div class="row row-cols-1">
+        <h4 style="background-color:purple;color:white"id="main.temp_max">High </h4>
+        
+
+  </section>
+
+  <section class="display">
+    <div class="box">
+      <div class="row row-cols-1">
+        <h4 style="background-color:blue;color:white"id="main.temp_min">Low </h4>
+    </div>
+  </section>
+  
+  <section class="display">
+    <div class="box">
+      <div class="row row-cols-1">
+        <h4 style="background-color:teal;color:white"id="main.temp">Current</h4>
+    </div>
+  </section>
+
+  <section class="display">
+    <div class="box">
+      <div class="row row-cols-1">
+        <h4 style="background-color:green;color:white"id="main.feels_like">Feels Like</h4>
+    </div>
+  </section>
+
+  <section class="display">
+    <div class="box">
+      <div class="row row-cols-1">
+        <h4 style="background-color:gray;color:white"id="clouds.all">Cloudiness Percentage</h4>
+    </div>
+  </section>
+
+  <!-- <div class="box">
+    <div class="row row-cols-1">
+      <div class="col align-self-end"> High</div>
+       <div class="col align-self-center"> -->
+      <!-- <div class="col align-self-end">Low</div>
+      <div class="col align-self-end">Current</div>
+      <div class="col align-self-end">Feels Like</div>
+    </div>
+  </div> --> 
+
+    <!-- <div class="container">
+    <nav class="navbar navbar-light bg-light">
+         <div class="container-fluid">
+            <span class="navbar-brand">Weather App</span>
+        </div>
+    </nav>
+
+    </div>    
+        <div class="column">
+             Form to come later  -->
+            <form action="" id="cityForm"> 
+                <div class="form-group">
+                    <input type="text" name="cityName" id="cityName" class="form-control" placeholder="Enter City Name">
+                    <input type="submit" value="Search" class="">
+                </div>
+            </form>
+        </div>  
+
+        <div class="column" id="cityDisplay">
+          <!-- Use JS to grab this row and append columns with cards of country information when user submits -->
+          
+      </div>
+
+      <div class = "card-body">
+        <h4 class = "card-title">Descriptions</h4>
+      </div>
+      <div class = "card-body">
+        <h4 class = "card-title">High</h4>
+      </div>
+      <div class = "card-body">
+        <h4 class = "card-title">Low</h4>
+      </div>
+      <div class = "card-body">
+        <h4 class = "card-title">Current Temperature</h4>
+      </div>
+      <div class = "card-body">
+        <h4 class = "card-title">Feels Like</h4>
+      </div>
+      <div class = "card-body">
+        <h4 class = "card-title">% Cloudiness</h4>
+      </div>
+
+        <!-- <div class="container">
+            <div class="row row-cols-1">
+              <div class="col align-self-end"> High</div>
+                <div class="col align-self-center"> -->
+              <!-- <div class="col align-self-end">Low</div>
+              <div class="col align-self-end">Current</div>
+              <div class="col align-self-end">Feels Like</div>
+            </div>
+          </div> --> 
+
+
+
+          <!-- <div class="box">
+            <div class="row row-cols-1">
+              <div class="col align-self-end"> High</div>
+                <div class="col align-self-center"> -->
+              <!-- <div class="col align-self-end">Low</div>
+              <div class="col align-self-end">Current</div>
+              <div class="col align-self-end">Feels Like</div>
+            </div>
+          </div> -->
+        
+       
+
+
+
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
